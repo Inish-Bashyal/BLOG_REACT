@@ -14,11 +14,11 @@ export default function Login() {
         <input className="loginInput" type="password" placeholder="Enter your password" />
 
         <button className="loginButton">
-        <Link className="link" to="login">LOGIN</Link>
+        <Link to="" className="link" >LOGIN</Link>
         </button>
       </form>
       <button className="loginRegisterButton">
-        <Link className="link" to="register">REGISTER</Link>
+        <Link to="/register" className="link" >REGISTER</Link>
       </button>
     </div>
   )

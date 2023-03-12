@@ -17,11 +17,11 @@ export default function Register() {
         <input className="registerInput" type="password" placeholder="Enter your password" />
 
         <button className="registerButton">
-        <Link className="link" to="register">REGISTER</Link>
+        <Link to="" className="link">REGISTER</Link>
         </button>
       </form>
       <button className="registerLoginButton">
-        <Link className="link" to="login">LOGIN</Link>
+        <Link to="/login" className="link">LOGIN</Link>
       </button>
     </div>
   )

@@ -36,16 +36,16 @@ export default function Topbar() {
             <Link className="link" to="/">CONTACT</Link>
             </li>
             <li className="topListItem">
-            <Link to="write" className="link">WRITE</Link>
+            <Link to="/write" className="link">WRITE</Link>
             </li>
             <li className="topListItem">
-            <Link to="login" className="link">LOGOUT</Link>
+            <Link to="/login" className="link">LOGOUT</Link>
             </li>
 
         </ul>
         </div>
       <div className="topRight">
-          <Link to="settings">
+          <Link to="/settings">
           <img className="topImg"
           src={pic}
           alt=""
